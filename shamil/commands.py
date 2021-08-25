@@ -70,13 +70,13 @@ async def start(client, message):
         [
         InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Main Group', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
+                InlineKeyboardButton('💬 Other Group', url='https://t.me/NovaTechlk')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('📢 Main Channel', url='https://t.me/sl_media_tech'),
+                InlineKeyboardButton('🎧 Yt Channel', url='https://www.youtube.com/c/CEYLONGEEK')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/mrSHAGGYboy'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -88,13 +88,13 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Main Group', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
+                InlineKeyboardButton('💬 Other Group', url='https://t.me/NovaTechlk')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('📢 Main Channel', url='https://t.me/sl_media_tech'),
+                InlineKeyboardButton('🎧 Yt Channel', url='https://www.youtube.com/c/CEYLONGEEK')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/mrSHAGGYboy'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
