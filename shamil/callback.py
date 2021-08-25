@@ -52,7 +52,7 @@ HELP = """
 • `/update` __Update Current Settings n Restarts the Bot__
 
 © Powered By 
-[ __@mwklinks | @redbullfed__ ]
+[ __SL MEADIA TECH | NOVA TECH__ ]
 """
 
 
@@ -80,7 +80,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("Pause", callback_data="ps")
                         ],[
                             InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/joinchat/OsJr6i6C05E0NmQ1")
+                            InlineKeyboardButton("Our Group", url="https://t.me/SL_MEDIA_TECH_GRUOP")
                         ]
                     ]
                 )
@@ -103,7 +103,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("Resume", callback_data="rs")
                         ],[
                             InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                            InlineKeyboardButton("Our Group", url='https://t.me/SL_MEDIA_TECH_GRUOP')
                         ],
                     ]
                 )
@@ -127,7 +127,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("Pause", callback_data="ps")
                         ],[
                             InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/joinchat/OsJr6i6C05E0NmQ1") 
+                            InlineKeyboardButton("Our Group", url="https://t.me/SL_MEDIA_TECH_GRUOP") 
                         ],
                     ]
                 )
@@ -151,7 +151,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton("Pause", callback_data="ps")
                         ],[
                             InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/joinchat/OsJr6i6C05E0NmQ1")
+                            InlineKeyboardButton("Our Group", url="https://t.me/SL_MEDIA_TECH_GRUOP")
                             
                     ],
                 ]
@@ -162,13 +162,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('📢 Main Group', url='https://t.me/SL_MEDIA_TECH_GRUOP'),
+                InlineKeyboardButton('💬 Other Group', url='https://t.me/NovaTechlk')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/joinchat/OsJr6i6C05E0NmQ1')
+                InlineKeyboardButton('📢 Main Channel', url='https://t.me/sl_media_tech'),
+                InlineKeyboardButton('🎧 Yt Channel', url='https://www.youtube.com/c/CEYLONGEEK')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('🤖 Developer', url='https://t.me/mrSHAGGYboy'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
